@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDeviceId"
+        android:text="Uuid"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDeviceName"
+        android:text="Device Name"
+        android:textSize="14dp"
+        android:layout_below="@+id/txtDeviceId"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDeviceRssi"
+        android:text="Rssi"
+        android:textSize="14dp"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>
